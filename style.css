@@ -1,0 +1,37 @@
+/* nav display */
+#nav--display {
+  background-color: rgb(212, 168, 111);
+}
+.text--color a {
+  text-decoration: none;
+  color: white;
+}
+
+/*about the brand*/
+.text--color {
+  color: midnightblue;
+  display: inline;
+}
+
+.background--color {
+  background-color: rgb(244, 237, 228);
+  margin: 0%;
+  padding: 0%;
+  outline: 0%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+.resume {
+  background-color: rgb(240, 227, 210);
+  margin-top: 100px;
+  border-radius: 10px;
+  border-style: groove;
+}
+.images {
+  border-radius: 10px;
+  border-style: solid;
+}

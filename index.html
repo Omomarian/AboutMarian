@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omis Brand</title>
   </head>
-  <body style="padding-left: 15%; padding-right: 15%">
+  <link rel="stylesheet" href="style.css" />
+  <body style="padding-left: 15%; padding-right: 15%" class="background--color">
     <!--nav tag starts here-->
-    <nav>
+    <nav id="nav--display">
       <!-- logo -->
       <img src="images/Omis Logo.PNG" alt="Brand logo" width="140px" />
 
       <!-- nav links -->
       <div
+        class="text--color"
         style="
           float: right;
           margin-top: 30px;
@@ -32,7 +34,7 @@
 
     <!-- About the brand -->
     <section id="About" style="padding-top: 5%">
-      <h1>WHAT IS OMIS BRAND ABOUT?</h1>
+      <h1 class="text--color">WHAT IS OMIS BRAND ABOUT?</h1>
       <p>
         <b>Introdcution:</b> The Omis brand, established in 2015, has become a
         symbol of excellence in the digital world. Its primary goal was to
@@ -76,7 +78,7 @@
     <!-- Work experience starts here-->
 
     <section id="Work" style="padding-top: 5%">
-      <h2>WORK</h2>
+      <h2 class="text--color">WORK</h2>
       <p>
         Omis, a brand that exudes simplicity, beauty, and elegance, has left an
         indelible mark in the world of makeup artistry. With a portfolio that
@@ -90,8 +92,11 @@
         radiated confidence and grace, a testament to Omis’s skillful hands and
         artistic vision.
       </p>
-      <img src="images/IMG_9612.jpeg" width="150px" />
-      <img src="images/IMG_9614.jpeg" width="150px" />
+
+      <div class="background--color">
+        <img class="images" src="images/IMG_9612.jpeg" width="150px" />
+        <img class="images" src="images/IMG_9614.jpeg" width="150px" />
+      </div>
 
       <p>
         But Omis’s influence extends beyond makeup alone. Her brand is more than
@@ -100,9 +105,11 @@
         adorn our accessories—each piece a harmonious blend of style and
         substance.
       </p>
-      <img src="images/rings.jpeg" width="150px" />
-      <img src="images/ring 1.jpeg" width="150px" />
-      <img src="images/rings 2.jpeg" width="150px" />
+      <div  class="background--color">
+        <img class="images" src="images/rings.jpeg" width="150px" />
+        <img class="images" src="images/ring 1.jpeg" width="150px" />
+        <img class="images" src="images/rings 2.jpeg" width="150px" />
+      </div>
 
       <p>
         In the world of beauty, Omis stands tall, leaving an impression that
@@ -115,7 +122,7 @@
       <!-- youtube link starts here-->
 
       <section>
-        <h2>YouTube</h2>
+        <h2 class="text--color">YouTube</h2>
 
         <p>
           With a good presence across various digital platforms, including an
@@ -134,8 +141,8 @@
 
       <section id="Name">
         <h2>You should check this out:</h2>
-
-        <iframe
+        <div class="images1">
+                  <iframe
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/ZZmtvyBYM_g?si=4Gx1nFFgdRAS00yx"
@@ -144,15 +151,17 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
+        </div>
+
       </section>
     </section>
     <!-- youtube link ends here-->
 
     <!--Resume starts here-->
-    <section id="Resume" style="padding-top: 5%">
-      <h2>RESUME</h2>
+    <section id="Resume"  class="resume">
+      <h2 class="text--color">RESUME</h2>
       <h2>Omis Brand: Brand Manager Resume</h2>
-      <h3>Professional Summary</h3>
+      <h3 class="text--color">PROFESSIONAL SUMMARY</h3>
       <p>
         Experienced brand manager with a passion for creating impactful brand
         strategies. Skilled in bridging the gap between brand vision and
@@ -161,7 +170,7 @@
         communication and relationship-building.
       </p>
 
-      <h3>Work Experience</h3>
+      <h2 class="text--color">WORK EXPERIENCE</h2>
 
       <h4>Brand Manager | Omis Brand</h4>
 
@@ -176,7 +185,7 @@
         <li>Maintained strong relationships with customers and employees.</li>
       </ul>
 
-      <h2>SKILLS</h2>
+      <h2 class="text--color">SKILLS</h2>
 
       <ul>
         <li>Market Analysis</li>
@@ -193,10 +202,10 @@
       <!-- resume ends here-->
 
       <!--education experience starts here-->
-      <h2>EDUCATION</h2>
+      <h2 class="text--color">EDUCATION</h2>
 
       <ul>
-        <li>Bachelor's Degree in Project Management</li>
+        <li>Bachelor's Degree in Geology and Mining Technology</li>
         <li>University of Port Harcourt</li>
         <li>Graduated: 2020</li>
       </ul>
@@ -204,14 +213,14 @@
       <!--education experience ends here -->
 
       <!--reference section starts here-->
-      <h2>REFERENCES</h2>
+      <h2 class="text--color">REFERENCES</h2>
       <p>Available upon request.</p>
       <!-- reference ends here-->
     </section>
 
     <!--contact info starts here-->
     <section id="Contact" style="padding-top: 5%">
-      <h2>CONTACT INFO</h2>
+      <h2 class="text--color">CONTACT INFO</h2>
       <form>
         <p>
           <label for="name"> Name</label>
@@ -230,7 +239,7 @@
     <!-- contact info ends here-->
 
     <!-- footer starts here-->
-    <footer style="padding-top: 5%">
+    <footer style="padding-top: 5%" : class="footer--color">
       <img src="images/Omis Logo.PNG" alt="Brand logo" width="80px" />
 
       <div style="float: right; margin-right: 100px; word-spacing: 30px">
@@ -242,7 +251,7 @@
           <img
             src="https://th.bing.com/th/id/OIP.aYVbqEFb2M-SWsBh_LafIQHaHa?rs=1&pid=ImgDetMain"
             width="40px"
-        /></a>
+        /></a>              
       </div>
       <hr />
       <h6 style="text-align: center; margin-bottom: 10px">© 2024 Omis Brand</h6>
